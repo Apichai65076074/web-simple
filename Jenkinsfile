@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-    git branch: 'master', url: 'https://github.com/Apichai65076074/web-simple.git'
+    git branch: 'main', url: 'https://github.com/Apichai65076074/web-simple.git'
   }
         }
         stage('Build Docker Image') {
